@@ -137,7 +137,7 @@ class _browserScreenState extends State<browserScreen> {
             Padding(
               padding: const EdgeInsets.only(left: 40.0),
               child: Text(
-                "Favourites",
+                "Trending",
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,

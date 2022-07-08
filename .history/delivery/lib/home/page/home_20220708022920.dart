@@ -111,10 +111,9 @@ class homeScreen extends StatelessWidget {
                 ),
                 onPressed: () {
                   Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => loginScreen(),
-                    ),
-                  );
+                MaterialPageRoute(
+                  builder: (context) => loginScreen(                              ),
+                ),;
                 },
                 child: const Text('Get Started'),
               ),

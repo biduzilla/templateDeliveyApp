@@ -131,13 +131,10 @@ class _browserScreenState extends State<browserScreen> {
                 ],
               ),
             ),
-            SizedBox(
-              height: MediaQuery.of(context).size.height / 20,
-            ),
             Padding(
               padding: const EdgeInsets.only(left: 40.0),
               child: Text(
-                "Favourites",
+                "Trending",
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
